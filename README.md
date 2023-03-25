@@ -6,7 +6,7 @@
 
 **[DEVELOPMENT ROLE]** *Jake Bilbro*, \<jbilbro01@gmail.com\>
 
-**[DEVELOPMENT ROLE]** *EDIT ME*, \<sju4sz@virginia.edu\>
+**[DEVELOPMENT ROLE]** *Philip Ma*, \<sju4sz@virginia.edu\>
 
 **[DEVELOPMENT ROLE]** *?????*, \<nfm2ed@virginia.edu\>
 
