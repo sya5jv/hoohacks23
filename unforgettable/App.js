@@ -11,6 +11,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeScreen } from './components/HomePage.js';
 import Swiper from 'react-native-swiper';
+import React from 'react';
 
 const Stack = createNativeStackNavigator();
 
