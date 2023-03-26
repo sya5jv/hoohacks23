@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-es": "^1.2.7",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.9.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "^5.0.1",
-    "start": "^5.1.0"
+    "start": "^5.1.0",
+    "util": "^0.12.5"
   },
   "scripts": {
     "start": "react-scripts start",
