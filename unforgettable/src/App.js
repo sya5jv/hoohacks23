@@ -76,9 +76,11 @@ export default function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="start" element={<Start />} />
+                <Route path="/" element={<HomePage />} />
             </Routes>
         </Router>
     );
 }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
