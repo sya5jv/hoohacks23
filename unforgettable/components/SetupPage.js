@@ -43,6 +43,14 @@ const SetupScreen = ({navigation}) => {
         value: 'Train',
       }];
 
+    const reminderOptions = [{
+        value: 'Push Notifications',
+      }, {
+        value: 'Text',
+      }, {
+        value: 'Email',
+    }];
+
     return (
       <View>
         <TextInput placeholder='Name' onChangeText={newText => setName(newText)} defaultValue={nametext}></TextInput>
@@ -50,8 +58,8 @@ const SetupScreen = ({navigation}) => {
         <TextInput placeholder='School Address' onChangeText={newText => setSchool(newText)} defaultValue={schooltext}></TextInput>
         <TextInput placeholder='30' onChangeText={newText => setWake(newText)} defaultValue={wakeuptext}></TextInput>
         <TextInput placeholder='30' onChangeText={newText => setWake(newText)} defaultValue={nighttext}></TextInput>
-        <TextInput placeholder='' onChangeText={newText => setWake(newText)} defaultValue={transporttext}></TextInput>
-        <TextInput placeholder='30' onChangeText={newText => setWake(newText)} defaultValue={remindertext}></TextInput>
+        <Dropdown label='Method of Transport' data={transportOptions}></Dropdown>
+        <Dropdown label='Reminder Method' data={reminderOptions}></Dropdown>
       </View>
     );
   };
