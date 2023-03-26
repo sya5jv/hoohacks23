@@ -26,7 +26,7 @@ export default function App() {
           horizontal={false}
           loop={false}>
           <View>
-            <Text>TOP</Text>
+            <Text>TOP this is a test</Text>
           </View>
           <View>
           <Text>HOME</Text>
