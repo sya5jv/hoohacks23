@@ -1,21 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, ScrollView, TextInput, SafeAreaView} from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView, TextInput, SafeAreaView } from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import { HomeScreen } from "./components/HomePage.js";
-import { Swiper, SwiperSlide } from "react-native-swiper";
+import Swiper from "react-native-swiper";
 
 const Stack = createNativeStackNavigator();
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#950abf',
-    color: '#ffffff',
-    fontSize: 30,
-    textAlign: 'center',
-    fontWeight: 'bold',
-  }
-})
+
 
 export default function App() {
   // return (
@@ -33,10 +24,9 @@ export default function App() {
     <Swiper showsButtons={true}>
       <Swiper
           horizontal={false}
-          loop={false}
-          showsButtons={true}>
+          loop={false}>
           <SafeAreaView>
-            <Text style={styles.container}>TOP this is a test</Text>
+            <Text>TOP Oh I can actually change this</Text>
           </SafeAreaView>
           <View>
           <Text>HOME</Text>
