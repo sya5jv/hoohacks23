@@ -36,7 +36,9 @@ export default function App() {
 	cursor.moveToFirst();
 	let icount = cursor.getInt(0);
 	if (icount > 0) {
-		
+		<SetupPage />
+	} else {
+		// pass
 	}
 
 	return (
