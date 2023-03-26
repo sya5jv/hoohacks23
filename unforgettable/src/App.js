@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, redirect} from "react-router-dom";
+import { BrowserRouter, Routes, Route, redirect } from "react-router-dom";
 import SetupPage from "./pages/Layout";
 
 var mysql = require('mysql');
@@ -74,11 +74,9 @@ export default function App() {
     });
 
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-            </Routes>
-        </Router>
+		<Routes>
+			<Route path="/" element={<HomePage />} />
+		</Routes>
     );
 }
 
